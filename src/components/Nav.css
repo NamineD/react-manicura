@@ -78,3 +78,14 @@ span {
 .navbar-left {
     max-width: 100%;
 }
+
+@media all and (max-width: 480px) {
+    .nav-text {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 10px 0px 8px 16px;
+        list-style: none;
+        height: 90px;
+    }
+}

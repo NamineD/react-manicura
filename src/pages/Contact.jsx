@@ -1,8 +1,7 @@
 import React, { Fragment } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons'
-import logoContact from '../img/logocontact.jpg';
-import logoContact2 from '../img/logocontact2.jpg';
+import jelly from '../img/jelly.jpg'
 
 
 const Contact = () => {
@@ -11,24 +10,23 @@ const Contact = () => {
     return (
         <Fragment>
 
-            <div className="row justify-content-md-center">
-                <div class="card mb-3 bg-primary" style={{maxWidth: '750px'}}>
-                    <img src={logoContact} class="card-img-top" />
-                        <div class="card-body">
-                            <h2 class="card-title" style={{textAlign: 'center'}}>Contacto</h2>
-                            <div className="row justify-content-md-center">
-                                <p class="card-text"><FontAwesomeIcon icon={faWhatsapp} size="lg"/>+52555-6699</p>
-                                <p class="card-text"><FontAwesomeIcon icon={faInstagram} size="lg"/>Francis nails uy</p>
+            <div className="container container-fluid">
+                <div className="row">
+                    <div className="col col-sm">
+                        <img src={jelly} className="cotiName"/>
+                    </div>
+                    <div className="col">
+                        <h2 className="contact">Contacto</h2>
+                        <p className="turno">Podes sacar un turno a través de:</p>
+                            <div className="container">
+                                <div className="col-7 mx-auto">
+                                    <p className="Wts-inst"><FontAwesomeIcon icon={faWhatsapp} size="lg"/><a href="https://wa.me/34555005500">+52555-6699</a></p>
+                                    <p className="Wts-inst"><FontAwesomeIcon icon={faInstagram} size="lg"/><a href="https://www.instagram.com/francisnailsuy/">Francis nails uy</a></p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="row justify-content-md-center">
-                        <ul class="list-group">
-                            <li class="list-group-item list-group-item-secondary">Esmaltado semi sobre uña natural sin diseño $550</li>
-                            <li class="list-group-item list-group-item-secondary">Esmaltado semi sobre uña natural con diseño $650</li>
-                            <li class="list-group-item list-group-item-secondary">Kapping extra $200</li>
-                        </ul>
-                        </div>
+                    </div>
                 </div>
+                
             </div>
         </Fragment>
     )
