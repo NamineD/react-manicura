@@ -12,10 +12,10 @@ const Main = () => {
         <Router>
             <Nav />
             <Switch>
-                <Route path='/' exact render={Home} />
-                <Route path='/galeria' exact render={Galery} />
-                <Route path='/cotizacion' exact render={Cotizacion}/>
-                <Route path='/contacto' render={Contact} />
+                <Route path='/react-manicura/' exact render={Home} />
+                <Route path='/react-manicura/galeria' exact render={Galery} />
+                <Route path='/react-manicura/cotizacion' exact render={Cotizacion}/>
+                <Route path='/react-manicura/contacto' render={Contact} />
             </Switch>
         </Router>
     )

@@ -5,25 +5,25 @@ import { faHome, faImage, faGrinBeam, faDollarSign } from '@fortawesome/free-sol
 const SidebarData = [
     {
         title: 'Inicio',
-        path: '/',
+        path: '/react-manicura/',
         icon: <FontAwesomeIcon icon={faHome} />,
         className: 'nav-text'
     },
     {
         title: 'Galeria',
-        path: '/galeria',
+        path: '/react-manicura/galeria',
         icon: <FontAwesomeIcon icon={faImage} />,
         className: 'nav-text'
     },
     {
         title: 'Cotización',
-        path: '/cotizacion',
+        path: '/react-manicura/cotizacion',
         icon: <FontAwesomeIcon icon={faDollarSign} />,
         className: 'nav-text'
     },
     {
         title: 'Contacto',
-        path: '/contacto',
+        path: '/react-manicura/contacto',
         icon: <FontAwesomeIcon icon={faGrinBeam} />,
         className: 'nav-text'
     }
