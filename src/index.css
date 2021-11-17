@@ -54,6 +54,14 @@ h2 {
 	padding: 30px;
 }
 
+.cotiImg {
+	height: 550px;
+	right: 540px;
+	display: block;
+	margin-left: 200px;
+	border-radius: 20%;
+}
+
 th {
 	padding: 20px;
 	font-size: 25px;
@@ -74,8 +82,10 @@ td {
 		right: 300px;
 	}
 
-	.img-fluid {
+	.cotiImg {
 		height: 140px;
 		right: 440px;
+		display: block;
+		margin: auto;
 	}
 }

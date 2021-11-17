@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import HomeCarousel from '../components/Carousel'
 import francesa from '../img/francesa.jpg'
 import rusa from '../img/rusa.jpg'

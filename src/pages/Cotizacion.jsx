@@ -9,7 +9,7 @@ const Cotizacion = () => {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-6">
-                        <img src={image} className="img-fluid" />
+                        <img src={image} className="cotiImg" />
                     </div>
                     
                     <div className="col">
