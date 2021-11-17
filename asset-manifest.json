@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-manicura/static/css/main.bc4fbb5a.chunk.css",
-    "main.js": "/react-manicura/static/js/main.436dfadd.chunk.js",
-    "main.js.map": "/react-manicura/static/js/main.436dfadd.chunk.js.map",
+    "main.css": "/react-manicura/static/css/main.01e7e2f5.chunk.css",
+    "main.js": "/react-manicura/static/js/main.fdf5314a.chunk.js",
+    "main.js.map": "/react-manicura/static/js/main.fdf5314a.chunk.js.map",
     "runtime-main.js": "/react-manicura/static/js/runtime-main.0cffb8fc.js",
     "runtime-main.js.map": "/react-manicura/static/js/runtime-main.0cffb8fc.js.map",
     "static/js/2.72314fe6.chunk.js": "/react-manicura/static/js/2.72314fe6.chunk.js",
     "static/js/2.72314fe6.chunk.js.map": "/react-manicura/static/js/2.72314fe6.chunk.js.map",
     "index.html": "/react-manicura/index.html",
-    "static/css/main.bc4fbb5a.chunk.css.map": "/react-manicura/static/css/main.bc4fbb5a.chunk.css.map",
+    "static/css/main.01e7e2f5.chunk.css.map": "/react-manicura/static/css/main.01e7e2f5.chunk.css.map",
     "static/js/2.72314fe6.chunk.js.LICENSE.txt": "/react-manicura/static/js/2.72314fe6.chunk.js.LICENSE.txt",
     "static/media/1.a4b47ca9.jpg": "/react-manicura/static/media/1.a4b47ca9.jpg",
     "static/media/10.cc10e25e.jpg": "/react-manicura/static/media/10.cc10e25e.jpg",
@@ -46,7 +46,7 @@
   "entrypoints": [
     "static/js/runtime-main.0cffb8fc.js",
     "static/js/2.72314fe6.chunk.js",
-    "static/css/main.bc4fbb5a.chunk.css",
-    "static/js/main.436dfadd.chunk.js"
+    "static/css/main.01e7e2f5.chunk.css",
+    "static/js/main.fdf5314a.chunk.js"
   ]
 }
